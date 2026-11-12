@@ -651,7 +651,7 @@ export const CoaTool: React.FC = () => {
 
                       <a
                         href={assign.file}
-                        download={`Hardik_Aggarwal_${assign.title.replace(/\s+/g, '_')}.pdf`}
+                        download={`Hardik_Aggarwal_${assign.title.replace(/\s+/g, '_')}.${assign.file.split('.').pop()}`}
                         className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-slate-700 hover:text-blue-600 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl transition-colors cursor-pointer"
                       >
                         <Download className="w-3.5 h-3.5 text-blue-600" />
