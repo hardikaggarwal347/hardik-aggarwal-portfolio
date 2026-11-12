@@ -371,5 +371,23 @@ export const portfolioData = {
         "Covers single-board computing (Raspberry Pi), AI Summit takeaways, Yotta & NPTEL infrastructure, programming language evaluation, CPU vs GPU vs TPU, memory hierarchies, Turing award research, and 64-bit ARM architecture organization.",
       file: "/assets/COA_Assignment_1.pdf",
     },
+        {
+      id: "02",
+      badge: "CASE STUDY 01",
+      title: "Case Study 1 – RISC vs CISC",
+      subject: "Computer Organization & Architecture",
+      description:
+        "Case study comparing RISC and CISC processor architectures, covering instruction sets, performance trade-offs, and real-world use cases.",
+      file: "/assets/Case_Study_1_RISC_vs_CISC.docx",
+    },
+    {
+      id: "03",
+      badge: "ASSIGNMENT 02",
+      title: "RISC vs CISC Report",
+      subject: "Computer Organization & Architecture",
+      description:
+        "Assignment report on RISC vs CISC architectures, comparing design philosophy, instruction complexity, and performance.",
+      file: "/assets/Assignment_RISC_vs_CISC_Report.docx",
+    },
   ] as AssignmentItem[],
 };
